@@ -32,3 +32,6 @@ def employee_delete(request,id):
     employee = Employee.objects.get(pk=id) 
     employee.delete()
     return redirect('employee_list')
+
+
+    
