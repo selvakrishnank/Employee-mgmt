@@ -12,3 +12,4 @@ class Employee(models.Model):
     emp_code= models.CharField(max_length=20)
     mobile= models.CharField(max_length=20)
     position= models.ForeignKey(Position,on_delete=models.CASCADE)
+    
